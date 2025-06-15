@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "INCONNU~XD~kFRSxTZR#4gaQe5SsasXPCkKmSl_pqU34mvNV5U51r2TV1FNfr84",
   PREFIX: process.env.PREFIX || '.',
    BOT_NAME: process.env.BOT_NAME || "INCONNU XD V2",
    BOT: process.env.BOT || "hello 👋",
@@ -32,7 +32,7 @@ const config = {
   /*lets add auto bot respond*/
   CHAT_BOT: process.env.CHAT_BOT !== undefined ? process.env.CHAT_BOT === 'true' : false,
   /*lets add chat bot mode*/
-  CHAT_BOT_MODE: process.env.CHAT_BOT_MODE || "public",
+  CHAT_BOT_MODE: process.env.CHAT_BOT_MODE || "private",
   /*how about Lydia chat bot*/
   LYDEA: process.env.LYDEA !== undefined ? process.env.LYDEA === 'true' : false,
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false, 
